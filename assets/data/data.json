@@ -132,14 +132,18 @@
   "I": {
     "nombres_biblicos": ["Isaac", "Ismael", "Iglesia"],
     "audio": {
-      "letra": "audio/I.mp3",
-      "nombres": ["audio/isaac.mp3", "audio/ismael.mp3", "audio/iglesia.mp3"]
+      "letra": "/assets/audio/i/letter_i.mp3",
+      "nombres": [
+        "/assets/audio/i/iglesia.mp3",
+        "/assets/audio/i/iglesia_descrip.mp3",
+        "audio/iglesia.mp3"
+      ]
     },
-    "imagen": "imagenes/I.png",
+    "imagen": "/assets/img/iglesia.png",
     "historias": [
       "Isaac fue el hijo de Abraham.",
       "Ismael fue el hijo de Abraham con Hagar.",
-      "Iglesia se refiere a la comunidad de creyentes."
+      "La iglesia es la casa de Dios para los creyentes en Cristo."
     ]
   },
   "J": {

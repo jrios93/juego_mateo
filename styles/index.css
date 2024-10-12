@@ -71,6 +71,7 @@ body {
     grid-template-columns: repeat(2, 1fr); /* Una sola columna en móviles */
     width: 100%; /* Ocupa el ancho completo de la pantalla */
     padding: 1em;
+    margin-left: 10px;
 
     justify-content: center;
   }
