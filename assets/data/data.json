@@ -66,10 +66,13 @@
   "E": {
     "nombres_biblicos": ["Elías", "Esther", "Ezequiel"],
     "audio": {
-      "letra": "audio/E.mp3",
-      "nombres": ["audio/elias.mp3", "audio/esther.mp3", "audio/ezequiel.mp3"]
+      "letra": "/assets/audio/e/letter_e.mp3",
+      "nombres": [
+        "/assets/audio/e/elias.mp3",
+        "/assets/audio/e/elias_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/E.png",
+    "imagen": "/assets/img/elias.png",
     "historias": [
       "Elías fue un profeta que desafió a los profetas de Baal.",
       "Esther fue una reina que salvó a su pueblo.",
@@ -79,10 +82,13 @@
   "F": {
     "nombres_biblicos": ["Felipe", "Faraón", "Filemón"],
     "audio": {
-      "letra": "audio/F.mp3",
-      "nombres": ["audio/felipe.mp3", "audio/faraon.mp3", "audio/filemon.mp3"]
+      "letra": "/assets/audio/f/letter_f.mp3",
+      "nombres": [
+        "/assets/audio/f/felipe.mp3",
+        "/assets/audio/f/felipe_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/F.png",
+    "imagen": "/assets/img/felipe.png",
     "historias": [
       "Felipe fue uno de los apóstoles.",
       "Faraón fue el rey de Egipto en el tiempo de Moisés.",
@@ -92,10 +98,14 @@
   "G": {
     "nombres_biblicos": ["Gedeón", "Goliat", "Gálatas"],
     "audio": {
-      "letra": "audio/G.mp3",
-      "nombres": ["audio/gedeon.mp3", "audio/goliat.mp3", "audio/galatas.mp3"]
+      "letra": "/assets/audio/g/letter_g.mp3",
+      "nombres": [
+        "/assets/audio/g/goliat.mp3",
+        "/assets/audio/g/goliat_descrip.mp3",
+        "audio/galatas.mp3"
+      ]
     },
-    "imagen": "imagenes/G.png",
+    "imagen": "/assets/img/goliat.png",
     "historias": [
       "Gedeón fue un juez que liberó a Israel.",
       "Goliat fue un gigante derrotado por David.",
@@ -103,14 +113,18 @@
     ]
   },
   "H": {
-    "nombres_biblicos": ["Hugo", "Hagar", "Héctor"],
+    "nombres_biblicos": ["Habacuc ", "Hagar", "Héctor"],
     "audio": {
-      "letra": "audio/H.mp3",
-      "nombres": ["audio/hugo.mp3", "audio/hagar.mp3", "audio/hector.mp3"]
+      "letra": "/assets/audio/h/letter_h.mp3",
+      "nombres": [
+        "/assets/audio/h/habacuc.mp3",
+        "/assets/audio/h/habacuc_descrip.mp3",
+        "audio/hector.mp3"
+      ]
     },
-    "imagen": "imagenes/H.png",
+    "imagen": "/assets/img/habacuc.png",
     "historias": [
-      "Hugo no es un personaje bíblico, pero es un nombre común.",
+      "Habacuc fue un profeta que confió en la justicia de Dios pese a la adversidad.",
       "Hagar fue la sierva de Sara, madre de Ismael.",
       "Héctor no aparece en la Biblia, pero es un nombre utilizado."
     ]
