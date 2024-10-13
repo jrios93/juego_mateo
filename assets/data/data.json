@@ -198,10 +198,13 @@
   "M": {
     "nombres_biblicos": ["Moisés", "María", "Mateo"],
     "audio": {
-      "letra": "audio/M.mp3",
-      "nombres": ["audio/moises.mp3", "audio/maria.mp3", "audio/mateo.mp3"]
+      "letra": "/assets/audio/m/letter_m.mp3",
+      "nombres": [
+        "/assets/audio/m/moises.mp3",
+        "/assets/audio/m/moises_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/M.png",
+    "imagen": "/assets/img/moises.png",
     "historias": [
       "Moisés liberó al pueblo de Israel de la esclavitud.",
       "María fue la madre de Jesús.",
@@ -371,6 +374,23 @@
       "nombres": ["audio/zacarias.mp3", "audio/zoe.mp3", "audio/zafiro.mp3"]
     },
     "imagen": "imagenes/Z.png",
+    "historias": [
+      "Zacarías fue un profeta del Antiguo Testamento.",
+      "Zoe es un nombre que significa vida.",
+      "Zafiro es una piedra preciosa mencionada en la Biblia."
+    ]
+  },
+  "Him": {
+    "nombres_biblicos": ["Zacarías", "Zoe", "Zafiro"],
+    "audio": {
+      "letra": "/assets/audio/himno/himnos.mp3",
+      "nombres": [
+        "/assets/audio/himno/cuan_grande_es_el.mp3",
+        "audio/zoe.mp3",
+        "audio/zafiro.mp3"
+      ]
+    },
+    "imagen": "/assets/img/himnario.jpg",
     "historias": [
       "Zacarías fue un profeta del Antiguo Testamento.",
       "Zoe es un nombre que significa vida.",

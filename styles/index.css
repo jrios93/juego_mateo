@@ -79,7 +79,7 @@ body {
   .grid-items {
     width: 100%; /* Ajustar a 100% para móviles */
     height: auto; /* Dejar que ajuste automáticamente */
-    padding: 10px;
+    padding: 20px;
   }
 
   .title-dynamic {
