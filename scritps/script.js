@@ -31,7 +31,7 @@ const getRandomColor = () => {
   return color;
 };
 
-const playAudioSequentially = async (letter, audioSrcs) => {
+const playNextAudio = (letter, audioSrcs) => {
   if (currentAudio) {
     currentAudio.pause();
     currentAudio.currentTime = 0;
@@ -41,24 +41,13 @@ const playAudioSequentially = async (letter, audioSrcs) => {
     clickCounts[letter] = 0;
   }
 
+  const currentIndex = clickCounts[letter] % audioSrcs.length;
+  const nextAudioSrc = audioSrcs[currentIndex];
+
+  currentAudio = new Audio(nextAudioSrc);
+  currentAudio.play();
+
   clickCounts[letter]++;
-
-  let audioToPlay;
-  if (clickCounts[letter] % (audioSrcs.length + 1) === 1) {
-    // Primer clic o después de un ciclo completo: reproducir solo el primer sonido
-    audioToPlay = [audioSrcs[0]];
-  } else {
-    // Clics subsecuentes: reproducir el resto de los sonidos
-    audioToPlay = audioSrcs.slice(1);
-  }
-
-  for (const src of audioToPlay) {
-    currentAudio = new Audio(src);
-    await new Promise((resolve) => {
-      currentAudio.onended = resolve;
-      currentAudio.play();
-    });
-  }
 };
 
 const displayData = (data) => {
@@ -72,7 +61,7 @@ const displayData = (data) => {
     const audioSrcs = [data[letter].audio.letra, ...data[letter].audio.nombres];
 
     newDiv.addEventListener("click", () => {
-      playAudioSequentially(letter, audioSrcs);
+      playNextAudio(letter, audioSrcs);
     });
 
     titleDynamic.innerText = `${letter}`;
@@ -91,6 +80,7 @@ const displayData = (data) => {
   });
 };
 
+// Esta función ya no se usa, pero la mantenemos por si se necesita en el futuro
 const playAudio = (src) => {
   const audio = new Audio(src);
   audio.play();
