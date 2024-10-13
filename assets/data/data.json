@@ -223,7 +223,7 @@
     },
     "imagen": "/assets/img/noe.png",
     "historias": [
-      "Noé, obedeciendo a Dios, construyó un arca para salvar a su familia y a los animales.",
+      "Noé obedeciendo a Dios construyó un arca para salvar a su familia y a los animales.",
       "Natán fue un profeta que aconsejó a David.",
       "Nadie no es un personaje bíblico, pero representa a todos."
     ]
@@ -231,12 +231,15 @@
   "O": {
     "nombres_biblicos": ["Oseas", "Oreb", "Obadías"],
     "audio": {
-      "letra": "audio/O.mp3",
-      "nombres": ["audio/oseas.mp3", "audio/oreb.mp3", "audio/obadias.mp3"]
+      "letra": "/assets/audio/o/letter_o.mp3",
+      "nombres": [
+        "/assets/audio/o/oseas.mp3",
+        "/assets/audio/o/oseas_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/O.png",
+    "imagen": "/assets/img/oseas.png",
     "historias": [
-      "Oseas fue un profeta que escribió un libro en la Biblia.",
+      "Oseas fue un profeta que mostró el amor fiel de Dios hacia Su pueblo, a pesar de su desobediencia.",
       "Oreb fue un rey que luchó contra Israel.",
       "Obadías es un libro profético del Antiguo Testamento."
     ]
@@ -244,23 +247,31 @@
   "P": {
     "nombres_biblicos": ["Pablo", "Pedro", "Priscila"],
     "audio": {
-      "letra": "audio/P.mp3",
-      "nombres": ["audio/pablo.mp3", "audio/pedro.mp3", "audio/priscila.mp3"]
+      "letra": "/assets/audio/p/letter_p.mp3",
+      "nombres": [
+        "/assets/audio/p/pablo.mp3",
+        "/assets/audio/p/pablo_descrip.mp3",
+        "audio/priscila.mp3"
+      ]
     },
-    "imagen": "imagenes/P.png",
+    "imagen": "/assets/img/pablo.png",
     "historias": [
-      "Pablo fue un apóstol que escribió muchas cartas.",
+      "Pablo fue un apóstol que llevó el evangelio a los gentiles y escribió muchas cartas del Nuevo Testamento.",
       "Pedro fue uno de los primeros discípulos de Jesús.",
       "Priscila fue una compañera de Pablo en el ministerio."
     ]
   },
   "Q": {
-    "nombres_biblicos": ["Quis", "Qumran", "Quej"],
+    "nombres_biblicos": ["Quelión", "Qumran", "Quej"],
     "audio": {
-      "letra": "audio/Q.mp3",
-      "nombres": ["audio/quis.mp3", "audio/qumran.mp3", "audio/quej.mp3"]
+      "letra": "/assets/audio/q/letter_q.mp3",
+      "nombres": [
+        "/assets/audio/q/quelion.mp3",
+        "/assets/audio/q/quelion_descrip.mp3",
+        "audio/quej.mp3"
+      ]
     },
-    "imagen": "imagenes/Q.png",
+    "imagen": "/assets/img/quelion.png",
     "historias": [
       "Quis fue un rey mencionado en la Biblia.",
       "Qumran es conocido por los Manuscritos del Mar Muerto.",
@@ -270,12 +281,16 @@
   "R": {
     "nombres_biblicos": ["Ruth", "Roboam", "Rebeca"],
     "audio": {
-      "letra": "audio/R.mp3",
-      "nombres": ["audio/ruth.mp3", "audio/roboam.mp3", "audio/rebeca.mp3"]
+      "letra": "/assets/audio/r/letter_r.mp3",
+      "nombres": [
+        "/assets/audio/r/ruth.mp3",
+        "/assets/audio/r/ruth_descrip.mp3",
+        "audio/rebeca.mp3"
+      ]
     },
-    "imagen": "imagenes/R.png",
+    "imagen": "/assets/img/ruth.png",
     "historias": [
-      "Ruth es conocida por su lealtad a Noemí.",
+      "Ruth es conocida por su lealtad a Noemí y bisabuela del rey David",
       "Roboam fue el hijo de Salomón.",
       "Rebeca fue la esposa de Isaac."
     ]
@@ -283,90 +298,115 @@
   "S": {
     "nombres_biblicos": ["Salomón", "Samuel", "Sofonías"],
     "audio": {
-      "letra": "audio/S.mp3",
-      "nombres": ["audio/salomon.mp3", "audio/samuel.mp3", "audio/sofonias.mp3"]
+      "letra": "/assets/audio/s/letter_s.mp3",
+      "nombres": [
+        "/assets/audio/s/salomon.mp3",
+        "/assets/audio/s/salomon_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/S.png",
+    "imagen": "/assets/img/salomon.png",
     "historias": [
-      "Salomón fue conocido por su sabiduría.",
+      "Salomón fue un rey sabio que construyó el templo de Dios y escribió proverbios",
       "Samuel fue un profeta y juez de Israel.",
       "Sofonías es un libro profético en la Biblia."
     ]
   },
   "T": {
-    "nombres_biblicos": ["Timoteo", "Tobías", "Tamar"],
+    "nombres_biblicos": ["Tito", "Tobías", "Tamar"],
     "audio": {
-      "letra": "audio/T.mp3",
-      "nombres": ["audio/timoteo.mp3", "audio/tobias.mp3", "audio/tamar.mp3"]
+      "letra": "/assets/audio/t/letter_t.mp3",
+      "nombres": [
+        "/assets/audio/t/tito.mp3",
+        "/assets/audio/t/tito_descrip.mp3",
+        "audio/tamar.mp3"
+      ]
     },
-    "imagen": "imagenes/T.png",
+    "imagen": "/assets/img/tito.png",
     "historias": [
-      "Timoteo fue un compañero de Pablo.",
+      "Tito fue un fiel colaborador de Pablo y ayudó a fortalecer las iglesias",
       "Tobías es un personaje del libro de Tobit.",
       "Tamar fue la nuera de Judá."
     ]
   },
   "U": {
-    "nombres_biblicos": ["Uri", "Uriah", "Urbano"],
+    "nombres_biblicos": ["Urías ", "Uri", "Urbano"],
     "audio": {
-      "letra": "audio/U.mp3",
-      "nombres": ["audio/uri.mp3", "audio/uriah.mp3", "audio/urbano.mp3"]
+      "letra": "/assets/audio/u/letter_u.mp3",
+      "nombres": [
+        "/assets/audio/u/urias.mp3",
+        "/assets/audio/u/urias_descrip.mp3",
+        "audio/urbano.mp3"
+      ]
     },
-    "imagen": "imagenes/U.png",
+    "imagen": "/assets/img/urias.png",
     "historias": [
-      "Uri fue un líder en el tiempo de Moisés.",
       "Uriah fue el esposo de Betsabé.",
+      "Uri fue un líder en el tiempo de Moisés.",
       "Urbano es mencionado en el Nuevo Testamento."
     ]
   },
   "V": {
-    "nombres_biblicos": ["Vigilio", "Vesubio", "Victor"],
+    "nombres_biblicos": ["Vashti", "Vesubio", "Victor"],
     "audio": {
-      "letra": "audio/V.mp3",
-      "nombres": ["audio/vigilio.mp3", "audio/vesubio.mp3", "audio/victor.mp3"]
+      "letra": "/assets/audio/v/letter_v.mp3",
+      "nombres": [
+        "/assets/audio/v/vashti.mp3",
+        "/assets/audio/v/vashti_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/V.png",
+    "imagen": "/assets/img/vashti.png",
     "historias": [
-      "Vigilio no es un personaje bíblico conocido.",
+      "Vashti fue una reina valiente que se negó a desobedecer a su rey.",
       "Vesubio no aparece en la Biblia.",
       "Victor es un nombre que puede referirse a varios."
     ]
   },
   "W": {
-    "nombres_biblicos": ["Walter", "Wendy", "Wilfredo"],
+    "nombres_biblicos": ["Winsdon", "Wendy", "Wilfredo"],
     "audio": {
-      "letra": "audio/W.mp3",
-      "nombres": ["audio/walter.mp3", "audio/wendy.mp3", "audio/wilfredo.mp3"]
+      "letra": "/assets/audio/w/letter_w.mp3",
+      "nombres": [
+        "/assets/audio/w/wisdom.mp3",
+        "/assets/audio/w/wisdom_descrip.mp3",
+        "audio/wilfredo.mp3"
+      ]
     },
-    "imagen": "imagenes/W.png",
+    "imagen": "/assets/img/wisdom.png",
     "historias": [
-      "Walter no es un personaje bíblico.",
+      "Sabiduría en español es el conocimiento que Dios nos da para tomar buenas decisiones.",
       "Wendy tampoco es un personaje bíblico.",
       "Wilfredo es un nombre común."
     ]
   },
   "X": {
-    "nombres_biblicos": ["Xena", "Ximen", "Xavier"],
+    "nombres_biblicos": ["Xilófono", "Ximen", "Xavier"],
     "audio": {
-      "letra": "audio/X.mp3",
-      "nombres": ["audio/xena.mp3", "audio/ximen.mp3", "audio/xavier.mp3"]
+      "letra": "/assets/audio/x/letter_x.mp3",
+      "nombres": [
+        "/assets/audio/x/xilofono.mp3",
+        "/assets/audio/x/xilofono_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/X.png",
+    "imagen": "/assets/img/xilofono.png",
     "historias": [
-      "Xena no es un personaje bíblico.",
+      "El xilófono nos invita a alabar a Dios con alegría",
       "Ximen no es un nombre común en la Biblia.",
       "Xavier es un nombre que se ha popularizado."
     ]
   },
   "Y": {
-    "nombres_biblicos": ["Yacob", "Yahvé", "Yohanan"],
+    "nombres_biblicos": ["Yabal", "Yahvé", "Yohanan"],
     "audio": {
-      "letra": "audio/Y.mp3",
-      "nombres": ["audio/yacob.mp3", "audio/yahve.mp3", "audio/yohanan.mp3"]
+      "letra": "/assets/audio/y/letter_y.mp3",
+      "nombres": [
+        "/assets/audio/y/yabal.mp3",
+        "/assets/audio/y/yabal_descrip.mp3",
+        "audio/yohanan.mp3"
+      ]
     },
-    "imagen": "imagenes/Y.png",
+    "imagen": "/assets/img/yabal.png",
     "historias": [
-      "Yacob es el nombre hebreo para Jacob.",
+      "Yabal fue el primer criador de ganado y un pionero en la vida nómada.",
       "Yahvé es el nombre de Dios en la tradición hebrea.",
       "Yohanan es el nombre hebreo para Juan."
     ]
@@ -374,31 +414,32 @@
   "Z": {
     "nombres_biblicos": ["Zacarías", "Zoe", "Zafiro"],
     "audio": {
-      "letra": "audio/Z.mp3",
-      "nombres": ["audio/zacarias.mp3", "audio/zoe.mp3", "audio/zafiro.mp3"]
+      "letra": "/assets/audio/z/letter_z.mp3",
+      "nombres": [
+        "/assets/audio/z/zacarias.mp3",
+        "/assets/audio/z/zacarias_descrip.mp3",
+        "audio/zafiro.mp3"
+      ]
     },
-    "imagen": "imagenes/Z.png",
+    "imagen": "/assets/img/zacarias.png",
     "historias": [
-      "Zacarías fue un profeta del Antiguo Testamento.",
+      "Zacarías fue el profeta que anunció esperanza y la venida del Mesías al pueblo de Israel.",
       "Zoe es un nombre que significa vida.",
       "Zafiro es una piedra preciosa mencionada en la Biblia."
     ]
   },
   "Him": {
-    "nombres_biblicos": ["Zacarías", "Zoe", "Zafiro"],
+    "nombres_biblicos": ["Himnos"],
     "audio": {
       "letra": "/assets/audio/himno/himnos.mp3",
       "nombres": [
         "/assets/audio/himno/cuan_grande_es_el.mp3",
         "/assets/audio/himno/su_gracia_es_mayor.mp3",
-        "/assets/audio/himno/cristo_buscnado_obreros.mp3"
+        "/assets/audio/himno/cristo_buscnado_obreros.mp3",
+        "/assets/audio/himno/usa_mi_vida.mp3"
       ]
     },
     "imagen": "/assets/img/himnario.jpg",
-    "historias": [
-      "Zacarías fue un profeta del Antiguo Testamento.",
-      "Zoe es un nombre que significa vida.",
-      "Zafiro es una piedra preciosa mencionada en la Biblia."
-    ]
+    "historias": ["Zacarías fue un profeta del Antiguo Testamento."]
   }
 }
