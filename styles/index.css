@@ -16,6 +16,7 @@ body {
   font-family: "Lilita One", sans-serif;
   font-size: var(--font-size-base);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; /* Cambiado para centrar mejor */
   min-height: 100vh; /* Cambiado a min-height para asegurar el ajuste en móviles */
@@ -23,6 +24,11 @@ body {
   background: #283c86;
   background: -webkit-linear-gradient(to right, #45a247, #283c86);
   background: linear-gradient(to right, #45a247, #283c86);
+}
+
+.title {
+  color: wheat;
+  font-size: 5em;
 }
 
 /* Layout */
@@ -54,6 +60,9 @@ body {
     justify-content: center;
     width: 90%; /* Ajustar ancho para móviles */
   }
+  .title {
+    text-align: center;
+  }
 
   .grid-items {
     width: 120px; /* Ajustar tamaño de los elementos */
@@ -74,6 +83,9 @@ body {
     margin-left: 10px;
 
     justify-content: center;
+  }
+  .title {
+    font-size: 4em;
   }
 
   .grid-items {
