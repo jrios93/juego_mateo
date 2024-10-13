@@ -184,13 +184,13 @@
       "letra": "/assets/audio/l/letter_l.mp3",
       "nombres": [
         "/assets/audio/l/lazaro.mp3",
-        "/assets/audio/l/lazaro_descrp.mp3",
+        "/assets/audio/l/lazaro_descrip.mp3",
         "audio/leon.mp3"
       ]
     },
     "imagen": "/assets/img/lazaro.png",
     "historias": [
-      "Lázaro fue un hombre que volvió a la vida gracias a nuestro Señor Jesucristo",
+      "Lázaro fue un hombre que volvió a la vida gracias a nuestro Señor Jesucristogi",
       "Lucas fue el autor del Evangelio de Lucas.",
       "León se refiere a Jesús como el León de Judá."
     ]
