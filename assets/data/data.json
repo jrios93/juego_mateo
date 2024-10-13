@@ -214,12 +214,16 @@
   "N": {
     "nombres_biblicos": ["Noé", "Natán", "Nadie"],
     "audio": {
-      "letra": "audio/N.mp3",
-      "nombres": ["audio/noe.mp3", "audio/natan.mp3", "audio/nadie.mp3"]
+      "letra": "/assets/audio/n/letter_n.mp3",
+      "nombres": [
+        "/assets/audio/n/noe.mp3",
+        "/assets/audio/n/noe_descrip.mp3",
+        "audio/nadie.mp3"
+      ]
     },
-    "imagen": "imagenes/N.png",
+    "imagen": "/assets/img/noe.png",
     "historias": [
-      "Noé construyó un arca para salvar a su familia.",
+      "Noé, obedeciendo a Dios, construyó un arca para salvar a su familia y a los animales.",
       "Natán fue un profeta que aconsejó a David.",
       "Nadie no es un personaje bíblico, pero representa a todos."
     ]
