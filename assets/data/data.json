@@ -149,10 +149,13 @@
   "J": {
     "nombres_biblicos": ["Jacob", "Juan", "José"],
     "audio": {
-      "letra": "audio/J.mp3",
-      "nombres": ["audio/jacob.mp3", "audio/juan.mp3", "audio/jose.mp3"]
+      "letra": "/assets/audio/j/letter_j.mp3",
+      "nombres": [
+        "/assets/audio/j/juan.mp3",
+        "/assets/audio/j/juan_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/J.png",
+    "imagen": "/assets/img/juan.png",
     "historias": [
       "Jacob fue el padre de las doce tribus de Israel.",
       "Juan fue el discípulo amado de Jesús.",
@@ -160,14 +163,17 @@
     ]
   },
   "K": {
-    "nombres_biblicos": ["Kedem", "Kefas", "Kalam"],
+    "nombres_biblicos": ["Kohath", "Kefas", "Kalam"],
     "audio": {
-      "letra": "audio/K.mp3",
-      "nombres": ["audio/kedem.mp3", "audio/kefas.mp3", "audio/kalam.mp3"]
+      "letra": "/assets/audio/k/letter_k.mp3",
+      "nombres": [
+        "/assets/audio/k/kohath.mp3",
+        "/assets/audio/k/kohath_descrip.mp3"
+      ]
     },
-    "imagen": "imagenes/K.png",
+    "imagen": "/assets/img/hohath.png",
     "historias": [
-      "Kedem es un lugar mencionado en la Biblia.",
+      "Kohath, hijo de Leví, fue responsable de los objetos sagrados del tabernáculo.",
       "Kefas es otro nombre para Pedro.",
       "Kalam no aparece en la Biblia, pero es un nombre común."
     ]
@@ -175,13 +181,17 @@
   "L": {
     "nombres_biblicos": ["Lucas", "Lázaro", "León"],
     "audio": {
-      "letra": "audio/L.mp3",
-      "nombres": ["audio/lucas.mp3", "audio/lazaro.mp3", "audio/leon.mp3"]
+      "letra": "/assets/audio/l/letter_l.mp3",
+      "nombres": [
+        "/assets/audio/l/lazaro.mp3",
+        "/assets/audio/l/lazaro_descrp.mp3",
+        "audio/leon.mp3"
+      ]
     },
-    "imagen": "imagenes/L.png",
+    "imagen": "/assets/img/lazaro.png",
     "historias": [
+      "Lázaro fue un hombre que volvió a la vida gracias a nuestro Señor Jesucristo",
       "Lucas fue el autor del Evangelio de Lucas.",
-      "Lázaro fue resucitado por Jesús.",
       "León se refiere a Jesús como el León de Judá."
     ]
   },
