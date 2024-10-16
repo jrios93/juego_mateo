@@ -436,7 +436,9 @@
         "/assets/audio/himno/cuan_grande_es_el.mp3",
         "/assets/audio/himno/su_gracia_es_mayor.mp3",
         "/assets/audio/himno/cristo_buscnado_obreros.mp3",
-        "/assets/audio/himno/usa_mi_vida.mp3"
+        "/assets/audio/himno/usa_mi_vida.mp3",
+        "/assets/audio/himno/elvive.mp3",
+        "/assets/audio/himno/dad_loor.mp3"
       ]
     },
     "imagen": "/assets/img/himnario.jpg",
